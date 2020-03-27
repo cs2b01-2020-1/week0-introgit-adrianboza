@@ -1,2 +1,2 @@
-name=input("hola")
-  print(name)
+name=input()
+  print("hola",name)
