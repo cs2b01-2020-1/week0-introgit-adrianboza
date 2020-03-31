@@ -13,7 +13,7 @@ def comparar(v1, v2):
   for i in range(min(len(v1),len(v2))):
     if(v1[i]==v2[i]):
       p +=1
-  return round(p*100/len(v1),1)
+  return round(p*100/len(v1),2)
 
 for i in genName:
     print("          ", i, end = "")
